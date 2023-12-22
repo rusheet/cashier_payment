@@ -103,7 +103,7 @@
                             echo "<td>{$row_keranjang['jumlah_item']}</td>";
                             echo "<td>{$row_keranjang['harga_total']}</td>";
                             // Tombol Back to Stok
-                            echo "<td><a href='back_to_stok.php?id={$row_keranjang['id']}' class='btn btn-danger btn-sm'>Back to Stok</a></td>";
+                            echo "<td><a href='back_to_stok.php?id={$row_keranjang['id']}' class='btn btn-danger btn-sm'>-</a></td>";
                             echo "</tr>";
 
                             // Tambahkan harga total ke total harga
