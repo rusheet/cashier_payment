@@ -1,0 +1,17 @@
+// Data Tabel Stok
+{
+    "stok": [
+        { "no": 1, "id": "ATK001", "nama_produk": "Pensil", "stok_item": 53, "harga_satuan": 1000 },
+        { "no": 2, "id": "ATK002", "nama_produk": "Bolpoint", "stok_item": 42, "harga_satuan": 3000 },
+        { "no": 3, "id": "ATK003", "nama_produk": "Buku Tulis", "stok_item": 12, "harga_satuan": 5000 },
+        { "no": 4, "id": "ATK004", "nama_produk": "Penghapus", "stok_item": 14, "harga_satuan": 1000 },
+        { "no": 5, "id": "ATK005", "nama_produk": "Spidol", "stok_item": 14, "harga_satuan": 4000 }
+    ]
+}
+
+// Data Tabel Keranjang
+{
+    "keranjang": [
+        { "no": 1, "id": "ATK001", "nama_produk": "Pensil", "jumlah_item": 2, "harga_total": 2000 }
+    ]
+}

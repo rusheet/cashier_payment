@@ -1,0 +1,35 @@
+UNTUK MEMULAI APP INI
+
+BUAT DB XAMPP MYSQL DENGAN COMMAND BERIKUT
+
+-- Membuat basis data
+CREATE DATABASE IF NOT EXISTS kios;
+
+-- Menggunakan basis data kios
+USE kios;
+
+-- Membuat tabel stok
+CREATE TABLE IF NOT EXISTS stok (
+  `no` int(11) NOT NULL AUTO_INCREMENT,
+  `id` varchar(255) NOT NULL,
+  `nama_produk` varchar(255) NOT NULL,
+  `stok_item` int(11) NOT NULL,
+  `harga_satuan` int(11) NOT NULL,
+  PRIMARY KEY (`no`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+
+-- Membuat tabel keranjang
+CREATE TABLE IF NOT EXISTS keranjang (
+  `no` int(11) NOT NULL AUTO_INCREMENT,
+  `id` varchar(255) NOT NULL,
+  `nama_produk` varchar(255) NOT NULL,
+  `jumlah_item` int(11) NOT NULL,
+  `harga_total` int(11) NOT NULL,
+  PRIMARY KEY (`no`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+
+
+
+LETAKKAN FOLDER APLIKASI cashier_payment DI FOLDER xampp\htdocs
+
+jalan file index.php
